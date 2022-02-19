@@ -4127,6 +4127,19 @@ input, select, textarea {
 		padding-top: 5px;
 	}
 
+	@media screen and (max-width: 736px) {
+
+		.J-logo {
+			width: auto;
+			height: 42px;
+			padding-top: 1px;
+
+		}
+
+	}
+
+
+
 	.purple-text {
 		color: #865ab4;
 	}
