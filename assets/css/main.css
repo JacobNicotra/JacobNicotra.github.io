@@ -4240,3 +4240,12 @@ input, select, textarea {
 			padding-top: 30px;
 
 		}
+
+		#contact-bottom {
+			padding-right: 4px;
+
+		}
+		#contact-bottom:hover {
+			cursor: pointer;
+			color: #e95050;
+		}
