@@ -3543,7 +3543,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: .8em 0;
 		text-align: center;
 	}
 
@@ -3654,7 +3654,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4.5em 0;
+				padding: .8em 0;
 			}
 
 	}
@@ -3748,7 +3748,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4.5em 0;
+				padding:.8em 0;
 			}
 
 	}
@@ -4051,7 +4051,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3.25em 1.5em;
+				padding: .8em 1.5em;
 			}
 
 	}
@@ -4104,7 +4104,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.25em;
+				padding: .8em 1.25em;
 			}
 
 				#footer .copyright {
