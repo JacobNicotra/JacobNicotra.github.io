@@ -4249,3 +4249,20 @@ input, select, textarea {
 			cursor: pointer;
 			color: #e95050;
 		}
+
+
+		#drone {
+			width: auto;
+			height: 25px;
+			/* padding-top: 5px; */
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			margin-top: 4px;
+		}
+
+		#drone-link {
+			border: none;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+
+		}
