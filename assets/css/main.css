@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #623d8a;
+		color: #915accc9;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #623d8a !important;
+			color: #915accc9 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -4216,6 +4216,32 @@ input, select, textarea {
 			align-items: center;
 		}
 
+		.interviews-ul {
+			list-style: none; /* remove bullet points */
+			padding: 10px 0; /* add spacing above and below list items */
+			display: flex;
+			justify-content: start;
+			flex-direction: column;
+		  }
+		  
+		  .interviews-li {
+			padding: 10px; /* add spacing to the left and right of list items */
+		  }
+		  
+		  .interviews-a {
+			color: rgb(255, 255, 255); /* set link color to bright purple */
+			text-decoration: none; /* remove underline */
+		  }
+		  
+		  .interviews-a:hover {
+			color: rgb(195, 2, 195); /* keep link color bright rgb(195, 2, 195) when hovered */
+		  }
+		  
+		  .interviews-a:visited {
+			color: rgb(195, 2, 195); /* keep link color bright purple after visiting */
+		  }
+		  
+
 		.email {
 			display: flex;
 		}
@@ -4265,4 +4291,15 @@ input, select, textarea {
 			margin-bottom: 0px;
 			padding-bottom: 0px;
 
+		}
+
+		.about-title {
+			font-size: 1.5em;
+			font-weight: 400;
+			margin-bottom: 30x;
+			padding-bottom: 15px;			
+		}
+
+		.interviews-title {
+			margin-bottom: 0px;
 		}
