@@ -4303,3 +4303,15 @@ input, select, textarea {
 		.interviews-title {
 			margin-bottom: 0px;
 		}
+
+
+		.player-wrapper {
+			position: relative;
+			padding-top: 56.25%
+		  }
+#video { 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
