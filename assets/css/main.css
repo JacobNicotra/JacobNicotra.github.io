@@ -2617,6 +2617,14 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		align-content: center;
+	}
+	ul.contact-me {
+		width: 80%;
 	}
 
 		ul.icons li {
@@ -4223,6 +4231,9 @@ input, select, textarea {
 			justify-content: start;
 			flex-direction: column;
 		  }
+		.interviews-ul > li {
+			margin: 10px 0px;
+		}
 		  
 		  .interviews-li {
 			padding: 10px; /* add spacing to the left and right of list items */
